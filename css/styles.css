@@ -415,6 +415,10 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
   font-weight: 450;
 }
 
+.hero-wrap .text h5{
+  font-weight: 700;
+}
+
 
 @media(min-width: 992px){
 	#arsh-aside{
