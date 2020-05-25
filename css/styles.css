@@ -15,16 +15,26 @@ body{
 	background-color: #fff;
 }
 
-body #arsh-aside{
-	position: fixed;
-	-moz-transform: translateX(0);
+body.offcanvas {
+    overflow-x: hidden; }
+    body.offcanvas #arsh-aside {
+      -moz-transform: translateX(0);
       -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
       -o-transform: translateX(0);
       transform: translateX(0);
-      background: rgba(0,0,0,0.04);
+      width: 270px;
+      background: #fff;
       z-index: 999;
-}
+      position: fixed; }
+    body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
+      top: 0;
+      -moz-transform: translateX(270px);
+      -webkit-transform: translateX(270px);
+      -ms-transform: translateX(270px);
+      -o-transform: translateX(270px);
+      transform: translateX(270px); }
+
 #arsh-page{
 	width: 100%;
 	overflow: hidden;
@@ -358,7 +368,7 @@ body #arsh-aside{
 		opacity: 1;
 	}
   #arsh-aside {
-    width: 0px;
+    width: 270px;
     -moz-transform: translateX(-270px);
     -webkit-transform: translateX(-270px);
     -ms-transform: translateX(-270px);
