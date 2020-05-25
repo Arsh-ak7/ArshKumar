@@ -410,6 +410,12 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
     display: flex !important;
 }
 
+.hero-wrap .text p{
+  font-family: 'Playfair Display', serif;
+  font-weight: 450;
+}
+
+
 @media(min-width: 992px){
 	#arsh-aside{
 		width: 25%;
@@ -417,7 +423,6 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
   #arsh-main{
   width: 75%;
 }
-
 }
 
 @media (max-width: 991.97px){
