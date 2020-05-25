@@ -17,6 +17,10 @@
   padding-left: 15px; 
 }
 
+.col-md-8{
+  margin-top: -250px !important;
+}
+
 body{
 	font-family: "comic san ms";
 	margin:0;
@@ -336,6 +340,18 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
    opacity: .8; 
 }
 
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    background: #fff;
+    z-index: 0;
+}
+
 .hero-wrap .text {
   z-index: 1;
   font-size: 18px;
@@ -374,6 +390,24 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
   text-align: center !important;
 }
 
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
 @media(min-width: 992px){
 	#arsh-aside{
 		width: 25%;
@@ -408,5 +442,6 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
     -ms-flex: 0;
     flex: 0 0 66.66667%;
     max-width:66.66667%;
+
   }
 }
