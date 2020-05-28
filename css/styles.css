@@ -548,3 +548,109 @@ h2.contact-heading{
   }
 }
 
+.edu-desc{
+  padding-top: 20px;
+}
+
+h1.edu-heading{
+  text-align: center;
+  font-family: "Cinzel",serif;
+}
+
+h1.info-heading{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.container-2 {
+  width: 100%;
+  background: rgba(0,0,0,0.012);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+  text-align: center;
+}
+
+  @media (min-width: 576px) {
+    .container-2 {
+      max-width: 540px; 
+      } 
+    }
+
+  @media (min-width: 768px) {
+    .container-2 {
+      max-width: 720px; 
+      } 
+    }
+
+  @media (min-width: 992px) {
+    .container-2 {
+      max-width: 960px; 
+      } 
+    }
+
+  @media (min-width: 1200px) {
+    .container-2 {
+      max-width: 1140px; 
+      } 
+    }
+
+    hr{
+      width: 294px;
+      height: 2px;
+      border-top: 1.2px solid #555;
+    }
+
+
+    .container-2 p{
+      font-family: "Lora",cursive;
+      font-weight: 500;
+      font-size:19px;
+    }
+
+.container-2 p a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container-2 p a:after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 7px;
+    left: 0;    
+    right: 0;
+    background-color: #000000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.container-2 p a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container-2 p a:hover:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1); 
+}
