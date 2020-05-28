@@ -1,7 +1,6 @@
-
 *,
 *::before,*::after{
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
@@ -24,14 +23,14 @@
 }
 
 body{
-	font-family: "comic san ms";
-	margin:0;
-	color:212529;
-	font-size: 1.5rem;
-	font-weight:500;
-	line-height: 1.5;
-	text-align: left;
-	background-color: #fff;
+  font-family: "comic san ms";
+  margin:0;
+  color:212529;
+  font-size: 1.5rem;
+  font-weight:500;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
 }
 
 body.offcanvas {
@@ -60,9 +59,9 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
     }
 
 #arsh-page{
-	width: 100%;
-	overflow: hidden;
-	position: relative;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 #arsh-aside {
@@ -86,7 +85,7 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
 }
 
 .arsh-footer{
-	position: absolute;
+  position: absolute;
     bottom: 40px;
     right: 1.5em;
     left: 1.5em;
@@ -97,49 +96,49 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
 }
 
 #arsh-aside .arsh-footer{
-	display: bock;
+  display: bock;
  }
 
 #arsh-aside .arsh-footer ul{
-	padding: 0;
-	margin:0;
+  padding: 0;
+  margin:0;
 } 
 
 #arsh-aside .arsh-footer ul li{
-	list-style: none;
-	display: inline;
+  list-style: none;
+  display: inline;
 }
 #arsh-aside .arsh-footer ul li a{
-	color: #343a40;
-	padding:4px;
+  color: #343a40;
+  padding:4px;
 }
 
 #arsh-aside .arsh-footer ul li a:hover,#arsh-aside .arsh-footer ul li a:active,#arsh-aside .arsh-footer ul li a:focus{
-	text-decoration: none;
-	color:#f05d23;
-	outline: none;
+  text-decoration: none;
+  color:#f05d23;
+  outline: none;
 }
 
 #arsh-aside #main-menu ul{
-	padding: 0;
-	margin-top: 40px;
+  padding: 0;
+  margin-top: 40px;
 }
 #arsh-aside #main-menu ul li{
-	list-style: none;
-	position: relative;
-	padding: 3px 0 0 0;
-	font-size: 24px;
-	margin:0 0 7px 0;
-	font-weight: 500;
-	font-family: "Lora" , cursive;
+  list-style: none;
+  position: relative;
+  padding: 3px 0 0 0;
+  font-size: 24px;
+  margin:0 0 7px 0;
+  font-weight: 500;
+  font-family: "Lora" , cursive;
 }
 
 #arsh-aside #main-menu ul li a{
-	color: rgba(0,0,0,0.47);
-	text-decoration: none;
-	position: relative;
-	padding: 10px 0;
-	-moz-transition: all 0.3s ease;
+  color: rgba(0,0,0,0.47);
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0;
+  -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -147,8 +146,8 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
 }
 
 #arsh-aside #main-menu ul li a:after{
-		  content: "";
-		  position: absolute;
+      content: "";
+      position: absolute;
           height: 1px;
           bottom: 7px;
           left: 0;
@@ -195,11 +194,11 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
 }
 
 #arsh-aside #logo{
-	font-family: "Lobster Two",cursive;
+  font-family: "Lobster Two",cursive;
 }
 
 #arsh-aside #logo a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #arsh-main{
@@ -419,21 +418,110 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
   font-weight: 700;
 }
 
+.section{
+  padding: 6em 1.8em;
+  position: relative;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; 
+}
+  
+  .mb-5{
+  margin-bottom: 3rem !important; 
+}
+
+  .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; 
+      } 
+    }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; 
+      } 
+    }
+
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; 
+      } 
+    }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; 
+      } 
+    }
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; 
+}
+
+.col-md-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%; 
+}
+
+.w-100{
+  width: 100% important;
+}
+
+h2.contact-heading{
+  font-family:"Cinzel",serif ;
+}
+
+.contact-section .contact-info p{
+  font-size:1.2em;
+  color:rgba(0,0,0,0.47);
+}
+
+
+.contact-section .contact-info p a{
+  font-weight: 470;
+  color:#1a1a1a;
+  text-decoration: none;
+}
+
+.contact-section .contact-info p span{
+  font-weight:500;
+  color:rgba(0,0,0,0.47);
+  font-family: "Montserrat",serif;
+}
 
 @media(min-width: 992px){
-	#arsh-aside{
-		width: 25%;
-	}
+  #arsh-aside{
+    width: 25%;
+  }
   #arsh-main{
   width: 75%;
 }
 }
 
 @media (max-width: 991.97px){
-	.arsh-nav-toggle{
-		visibility: visible;
-		opacity: 1;
-	}
+  .arsh-nav-toggle{
+    visibility: visible;
+    opacity: 1;
+  }
   #arsh-aside {
     width: 270px;
     -moz-transform: translateX(-270px);
@@ -456,3 +544,4 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
 
   }
 }
+
