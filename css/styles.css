@@ -492,6 +492,8 @@ h2.contact-heading{
 
 .contact-section .contact-info p{
   font-size:1.2em;
+  font-family: "Lora",cursive;
+  font-weight:520;
   color:rgba(0,0,0,0.47);
 }
 
@@ -500,6 +502,7 @@ h2.contact-heading{
   font-weight: 470;
   color:#1a1a1a;
   text-decoration: none;
+  font-family: "Lora", cursive;
 }
 
 .contact-section .contact-info p span{
@@ -545,9 +548,3 @@ h2.contact-heading{
   }
 }
 
-#map {
-  height: 400px;
-  width: 100%; }
-  @media (max-width: 991.98px) {
-    #map {
-      height: 300px; } }
