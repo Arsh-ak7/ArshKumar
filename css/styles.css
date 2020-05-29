@@ -369,6 +369,10 @@ body.offcanvas #arsh-main, body.offcanvas .arsh-nav-toggle {
   border-radius: 50%; 
 }
 
+div.hero-wrap.js-fullheight {
+  background-image: url(image/img4.jpg); background-position: 50% !important;
+
+}
 .hero-wrap .text .subheading {
   font-size: 24px;
   color: #bfbfbf;
