@@ -664,3 +664,8 @@ h1.info-heading{
     -o-transform: scaleX(1);
     transform: scaleX(1); 
 }
+
+h2.scd{
+  opacity: 0.5;
+  color: rgba(0,0,0,0.47);
+}
